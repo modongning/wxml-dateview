@@ -1,0 +1,26 @@
+/* pages/dateSelect/dateSelect.wxss */
+.date-day{
+    display: flex;
+    margin:5px;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+}
+.date-day.active{
+    background: #FF9C01;
+    color:#FFF;
+    border-radius: 100%;
+}
+.date-day.unavailable{
+    color:#aaa;
+}
+
+.date-week{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin:5px;
+}
+.week{
+    color:#FF9C01;
+}
