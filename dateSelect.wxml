@@ -3,13 +3,13 @@
     <view style="position:fixed;top:0;background:#fff;height:112px">
         <view class="layout-flex row" style="padding:15px;font-size:20px">
             <view style="flex:1;border-right:1px solid #eee;" >
-                <text style="font-size:16px;color:#999">入住时间</text>
+                <text style="font-size:16px;color:#999">开始时间</text>
                 <view>
                     <text style="color:#ff9c01">{{checkInDate}}</text>
                 </view>
             </view>
             <view style="flex:1;text-align:right">
-                <text style="font-size:16px;color:#999">退房时间</text>
+                <text style="font-size:16px;color:#999">结束时间</text>
                 <view>
                     <text style="color:#ff9c01">{{checkOutDate}}</text>
                 </view>

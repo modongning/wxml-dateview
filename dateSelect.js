@@ -1,6 +1,6 @@
 // pages/dateSelect/dateSelect.js
 
-var Moment = require("../../utils/Moment.js");
+var Moment = require("utils/Moment.js");
 
 var DATE_LIST = [];
 var DATE_YEAR = new Date().getFullYear()
